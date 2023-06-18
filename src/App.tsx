@@ -48,7 +48,7 @@ const nextPage =async () => {
 }
   return (
     <div className="App">
-      <header className="pokemon-header">POKEMON</header>
+      <header className="pokemon-header">POKEDEX</header>
       <PokemonCollection pokemons={pokemons}/>
       <div className="btn-container">
         <button className="btn" onClick={nextPage}>charger
