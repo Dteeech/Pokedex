@@ -1,7 +1,6 @@
-import React ,{useEffect, useRef} from 'react'
+import React from 'react'
 import { Pokemon } from '../interface'
 import PokemonList from './PokemonList'
-import VanillaTilt from "vanilla-tilt";
 
 interface Props {
     pokemons: Pokemon[]
