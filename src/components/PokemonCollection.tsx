@@ -1,6 +1,7 @@
-import React from 'react'
+import React ,{useEffect, useRef} from 'react'
 import { Pokemon } from '../interface'
 import PokemonList from './PokemonList'
+import VanillaTilt from "vanilla-tilt";
 
 interface Props {
     pokemons: Pokemon[]
@@ -9,7 +10,8 @@ interface Props {
 const PokemonCollection: React.FC<Props> = (props) => {
 
   const { pokemons } = props
-
+  
+  
   return <section className="collection-container">
     {pokemons.map((pokemon) => {
       return(
